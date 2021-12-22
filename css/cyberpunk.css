@@ -10814,25 +10814,33 @@ article.article .article-meta {
 }
 article.article .content {
   word-wrap: break-word;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 article.article .content h1 {
   font-size: 1.75em;
 }
 article.article .content h2 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 article.article .content h3 {
   font-size: 1.25em;
+  font-weight: bold;
 }
 article.article .content h4 {
   font-size: 1.125em;
+  font-weight: bold;
 }
 article.article .content h5 {
   font-size: 1em;
+  font-weight: bold;
 }
 article.article .content pre {
   font-size: 0.85em;
+}
+article.article .content p {
+  line-height: 28px;
+  font-weight: bold;
 }
 article.article .content code {
   padding: 0;
@@ -10964,9 +10972,11 @@ a.article-nav-next span {
   align-items: center;
   padding: 0 0.5rem;
   margin: 1.25rem 0.25rem;
+  font-weight: bold;
 }
 .navbar-main .navbar-item.is-active {
   background-color: transparent;
+  font-weight: bolder;
 }
 @media screen and (max-width: 1087px) {
   .navbar-main .navbar-menu {
